@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2320532-12"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -10,19 +11,12 @@
   </script>
 
   <title>La richesse, à l'échelle</title>
-  <meta name="description" content="L'inégalité des richesses en France est incroyablement grande. Nous allons essayer de la visualiser ici d'une manière inédite." />
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@mkorostoff">
-  <meta name="twitter:creator" content="@mkorostoff">
-  <meta name="twitter:title" content="La richesse, à l'échelle">
-  <meta name="twitter:description" content="L'inégalité des richesses en France est incroyablement grande. Nous allons essayer de la visualiser ici d'une manière inédite.">
-  <meta name="twitter:image" content="https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png">
+  <meta name="description" content="La fortune des ultra riches est difficilement imaginable. Nous vous proposons de la visualiser ici d'une manière inédite." />
 
   <meta property="og:title" content="La richesse, à l'échelle" />
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="L'inégalité des richesses en France est incroyablement grande. Nous allons essayer de la visualiser ici d'une manière inédite." />
-  <meta property="og:image" content="https://mkorostoff.github.io/1-pixel-wealth/img/off-the-chart.png" />
+  <meta property="og:description" content="La fortune des ultra riches est difficilement imaginable. Nous vous proposons de la visualiser ici d'une manière inédite." />
+  <meta property="og:image" content="https://github.com/Spanningtreegiant/Moneymoneymoney/blob/main/img/off-the-chart.png" />
 
   <link rel="stylesheet" type="text/css" href="main.css?version=1.2">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
@@ -63,7 +57,7 @@
     <div class=wealth-row wealth-row-one>
       <div class="title-screen">
         <h1>La richesse, à l'échelle</h1>
-        <div class="scroll-this-way">scroller</div>
+        <div class="scroll-this-way">scrollez</div>
       </div>
       <div class="wealth-wrapper">
         <h2 class="wealth-title">1000€</h2>
@@ -92,10 +86,10 @@
         </div>
       </div>
 
-      <div name="bezos" class="wealth-wrapper bezos">
-        <div id="bezos" class="wealth ruler">
-          <h2 class="wealth-title">149 milliards d'€ (Fortune de Bernard Arnault)</h2>
-          <div class="counter" id="bezos-counter"></div>
+      <div name="arnault" class="wealth-wrapper arnault">
+        <div id="arnault" class="wealth ruler">
+          <h2 class="wealth-title">149 milliards d'€ (fortune de Bernard Arnault)</h2>
+          <div class="counter" id="arnault-counter"></div>
           <div class="key">
             <span>80 millions d'€</span>
           </div>
@@ -105,7 +99,7 @@
           </div>
 
           <div class="text-infobox infobox">
-            <div class="title">Il est rare de voir les inégalités de richesses représentées de la sorte. Cela peut expliquer que nous sous-estimions souvent la fortune relative des ultra riches.</div>
+            <div class="title">Il est difficile de se representer la richesse relative des milliardaires. C'est la raison pour laquelle nous la sous-estimons souvent.</div>
           </div>
 
           <div class="five-pixels text-infobox infobox-half infobox">
@@ -113,18 +107,18 @@
           </div>
 
           <div class="coming-up text-infobox infobox">
-            <div class="title">OK, on approche presque de la fin maintenant.</div>
+            <div class="title">OK, on approche presque de la fin.</div>
           </div>
 
           <div class="text-infobox infobox">
-            <div id="bezos-counter-start" class="title">
-              <p>Lol, c'était une blague, on est approximativement au tier du chemin. Continuez à scroller, il y a d'autres choses à lire.</p>
+            <div id="arnault-counter-start" class="title">
+              <p>Lol, c'était une blague, on est approximativement à un tier du chemin. Continuez à scroller, il y a d'autres choses à lire plus loin.</p>
             </div>
           </div>
 
 
           <div class="text-infobox infobox infobox-half">
-            <div class="title">Remettons cette richesse en perspective en la comparant à des choses familières.</div>
+            <div class="title">Remettons cette richesse en perspective en la comparant à des choses plus familières.</div>
           </div>
 
           <div class="infobox infobox-half lifetime">
@@ -136,61 +130,29 @@
 
           <div class="infobox infobox-half healthcare">
             <div class="title-square-wrapper">
-              <div class="title">Dépenses annuelles moyenne d’une famille de 4 personnes.</div>
+              <div class="title">Dépenses annuelles moyennes d’une famille de 4 personnes.</div>
               <div class="square"></div>
             </div>
           </div>
 
-          <div class="infobox infobox-half amazon-year">
-            <div class="title-square-wrapper">
-              <div class="title">Salaire annuel moyen d’un.e mployé.e.</div>
-              <div class="square"></div>
-            </div>
-          </div>
 
            <div class="infobox infobox-half year-veteran">
     <div class="square shadow">
       <div class="title">
-        Coût annuel pour mettre fin à la faim en France (estimé à 2 milliards d’€ par an).
-		 <br><br>
-		 <br><br>
-		 <br><br>
-		 <br><br>
-		 <br><br>
-		 <br><br>
-		 <br><br>
-		Environ 8 millions de personnes étaient en situation d’insécurité alimentaire en 2024.
+        Coût annuel pour mettre fin à l'insécurité alimentaire en France, qui touche environ 8 millions de personnes (estimé à 2 milliards d’€ par an).
       </div>
     </div>
   </div>
 
           <div class="infobox infobox-half year-chemo">
             <div class="square shadow">
-              <div class="title">Coût annuel de la chimiothérapie pour tous les patients atteints d'un cancer en France (estimé à 6 milliards de d’€ par an)</div>
+              <div class="title">Coût annuel de la chimiothérapie pour tous les patients atteints d'un cancer en France (estimé à 6 milliards d’€ par an).</div>
               <div class="midtext-wrapper">
               </div>
             </div>
           </div>
 
      
-		  
-			<div class="infobox infobox-half text-infobox">
-            <div class="title">
-              <p>Plusieurs économistes et politiques proposent des réformes pour une taxation plus équitable des très grandes fortunes.</p>
-            </div>
-          </div>
-
-			<div class="infobox infobox-half text-infobox">
-            <div class="title">
-			<p>
-				Mais si l’on taxait plus les riches en France, fuiraient-t-ils et l’économie en pâtirait-elle ? 
-				À ces deux questions, 
-				<a href="https://cae-eco.fr/fiscalite-du-capital-quels-sont-les-effets-de-lexil-fiscal-sur-leconomie" target="_blank" rel="noopener noreferrer">
-				la dernière étude du Conseil d’analyse économique (CAE)</a>
-				répond par la négative.
-			</p>
-            </div>
-          </div>
 		  
 			<div class="infobox infobox-half text-infobox">
             <div class="title">
@@ -202,25 +164,25 @@
           <div class="infobox infobox-quarter celebrities">
             <div class="column-infobox">
               <div class="sub-infobox goldman">
-                <div class="title">Fortune de Kylian Mbappé (180 millions d’€)</div>
+                <div class="title">Fortune de Kylian Mbappé (180 millions d’€).</div>
                 <div class="square shadow"></div>
               </div>
 
             </div>
             <div class="sub-infobox beyonce">
-              <div class="title">Fortune de Beyonc&eacute; (490 millions d’€)</div>
+              <div class="title">Fortune de Beyonc&eacute; (490 millions d’€).</div>
               <div class="square shadow"></div>
             </div>
 
 
             <div class="column-infobox">
               <div class="sub-infobox doctor small">
-                <div class="title">Revenus totaux d’un.e médecin sur l’ensemble de sa carrière (5 millions d’€ en moyenne)</div>
+                <div class="title">Revenus totaux d’un.e médecin sur l’ensemble de sa vie (5 millions d’€ en moyenne)</div>
                 <div class="square shadow"></div>
               </div>
 
               <div class="sub-infobox lawyer small">
-                <div class="title">Revenus totaux d’un.e avocat.e sur l’ensemble de sa carrière (4 millions d’€ en moyenne)</div>
+                <div class="title">Revenus totaux d’un.e avocat.e sur l’ensemble de sa vie (4 millions d’€ en moyenne)</div>
                 <div class="square shadow"></div>
               </div>
             </div>
@@ -238,22 +200,44 @@
               <p>Mais beaucoup n'ont pas pleinement conscience de l'énorme fossé qui les sépare des ultra riches.</p>
             </div>
           </div>
+		  
+		  
+			<div class="infobox infobox-half text-infobox">
+            <div class="title">
+              <p>Plusieurs économistes et politiques proposent des réformes pour une taxation plus équitable des très grandes fortunes.</p>
+            </div>
+          </div>
+
+			<div class="infobox infobox-half text-infobox">
+            <div class="title">
+			<p>
+				Mais si l’on taxait plus les riches, quitteraient-ils la France et l’économie nationale en souffrirait-elle? 
+			</p>
+            </div>
+          </div>
+		  
+		  
+		  <div class="infobox infobox-half text-infobox">
+            <div class="title">
+			<p>
+				Selon  
+				<a href="https://cae-eco.fr/fiscalite-du-capital-quels-sont-les-effets-de-lexil-fiscal-sur-leconomie" target="_blank" rel="noopener noreferrer">
+				la dernière étude du Conseil d’analyse économique (CAE)</a>
+				ce risque serait limité.
+			</p>
+            </div>
+          </div>
 
             <div class="infobox infobox-close text-infobox">
               <div class="title">
-                <p>Vous bientôt avez parcouru l’ensemble de la fortune de Bernard Arnault pour 2024.
+                <p>Vous avez bientôt parcouru l’ensemble de la fortune de Bernard Arnault pour 2024.
                 </div>
               </div>
 			  
-			    <div class="infobox infobox-close text-infobox">
-              <div class="title">
-                <p>Vous bientôt avez parcouru l’ensemble de la fortune de Bernard Arnault pour 2024.
-                </div>
-              </div>
 			  
 			      <div class="infobox infobox-close text-infobox">
               <div class="title">
-                <p>En 2025, sa fortune a encore augmenté (estimée à 190 milliards d’€)
+                <p>Mais en 2025, sa fortune a encore augmenté. Elle est désormais estimée à 190 milliards d’€.
                 </div>
               </div>
 			  
@@ -265,24 +249,23 @@
 
         <div class="infobox infobox text-infobox no-single-human">
           <div class="title">
-            <p>Si vous souhaitez agir, partagez autour de vous pour relancer le débat démocratique autour de la justice fiscale.</p>
+            <p>Si vous souhaitez agir, partagez ce lien autour de vous pour relancer le débat autour de la justice fiscale.</p>
           </div>
         </div>
 		
-		
-
+		        <div class="infobox infobox text-infobox no-single-human">
+          <div class="title">
+            <p>Vous pouvez aussi soutenir la taxe Zucman en signant <a href="https://petitions.assemblee-nationale.fr/initiatives/i-3008" target="_blank" 
+		rel="noopener noreferrer"> cette pétition sur le site de l'Assemblée Nationale</a>. </p>
+          </div>
+        </div>	
       </div>
-    </div>
+	</div>
+
 
         <div class="infobox text-infobox infobox-half">
-        <h2 class="title what-could-we-do"> Vous pouvez soutenir la justice fiscale en <a href="https://petitions.assemblee-nationale.fr/initiatives/i-3008" target="_blank" 
-		rel="noopener noreferrer">
-		signant cette pétition</a>
-		sur le site de l’Assemblée Nationale.
-		</h2>
-
+       <h2 class="title what-could-we-do"> Merci! </h2>
         </div>
-
       </div>
     </div>
   </div>

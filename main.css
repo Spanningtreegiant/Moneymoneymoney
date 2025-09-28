@@ -140,7 +140,7 @@ h1 {
   margin-bottom: 5px;
 }
 .billion .wealth > .wealth-title {
-  flex-basis: 110px;
+  flex-basis: auto;
   position: static;
 }
 .four-hundred .wealth > .wealth-title {
@@ -152,7 +152,10 @@ h1 {
   width: auto;
 }
 .wealth > .wealth-title {
-  flex-basis: 1%;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 100%;
   padding: 10px;
 }
 @media (max-width: 450px) {
@@ -294,7 +297,7 @@ h1 {
   height: 500px;
   background-color: #03A9F4;
 }
-.bezos .wealth {
+.arnault .wealth {
   width: 298000px;
   height: 500px;
   background-color: orange;
@@ -323,7 +326,7 @@ h1 {
 .key > span {
   display: inline-block;
 }
-.bezos .key > span {
+.arnault .key > span {
   background-color: orange;
 }
 .four-hundred .key > span {
