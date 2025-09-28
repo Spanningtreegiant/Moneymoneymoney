@@ -361,7 +361,7 @@ h1 {
 }
 .year-veteran .square {
   height: 400px;
-  width: 1186px;
+  width: 4000px;
   margin-top: 5px;
   background-color: #8BC34A;
 }
@@ -379,7 +379,7 @@ h1 {
 }
 .year-chemo .square {
   height: 400px;
-  width: 1485px;
+  width: 12000px;
   background-color: #03A9F4;
   border: 5px dashed #0078af;
   box-sizing: border-box;
@@ -406,7 +406,7 @@ h1 {
   background-color: #406994;
 }
 .goldman .square {
-  width: 512px;
+  width: 514px;
   height: 350px;
   background-color: #64A8F0;
 }
