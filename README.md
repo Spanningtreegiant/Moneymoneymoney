@@ -1,6 +1,6 @@
 # About pourunejusticefiscale.org
 
-This is a French spin on 1 Pixel Wealth by [MKorostoff](https://mkorostoff.github.io/) created by Margot Bloch.
+This is a French spin on 1 Pixel Wealth by [MKorostoff](https://github.com/mkorostoff) created by Margot Bloch.
 
 # 1 Pixel Wealth Translations
 
